@@ -31,6 +31,11 @@ header ul  li{
     padding: 5px 15px;
     font-size: 15px;
 }
+header ul li a {
+    text-decoration: none;
+    color: black;
+}
+
 
 .mainImg img{
     display: flex;
@@ -117,4 +122,18 @@ h2 {
 
 .under {
     border-bottom: 1px solid  black;
+}
+
+@media screen and (max-width: 640px) {
+    .aboutSection {
+        font-size: 40px;
+    }
+    
+    .sectiontitle {
+        text-align: center;
+    }
+
+    footer {
+        text-align: center;
+    }
 }
