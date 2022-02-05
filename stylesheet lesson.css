@@ -1,6 +1,7 @@
 * {
     padding: 0px;
     margin: 0px;
+    background-color:;
 }
 
 header {
@@ -14,6 +15,7 @@ header {
     color: white;
     float: left;
     margin: 10px 30px;
+    padding: 0 0 2 0px;
 }
 
 .header-logo h1 {
@@ -125,15 +127,53 @@ h2 {
 }
 
 @media screen and (max-width: 640px) {
-    .aboutSection {
-        font-size: 40px;
+    .header-logo {
+        margin-left: 10px;
     }
     
-    .sectiontitle {
-        text-align: center;
+    header ul {
+        margin-right: 2px;
     }
 
-    footer {
-        text-align: center;
+    header ul li {
+        font-size: 14px;
+    }
+
+    .mainImg img {
+        height: 90vh;
+        object-fit: cover;
+        object-position: 77%;
+    }
+    
+    main h2 {
+        font-size: 32px;
+    }
+    .aboutSection {
+        flex-wrap: wrap;
+    }
+
+    .aboutSection p,h3{
+        margin: 0px 10px;
+        text-align: left;
+    }
+
+    .aboutSection p {
+        font-size: 14.4px;
+    }
+
+
+    .bicycleSection ul{
+        flex-wrap: wrap;
+    }
+
+    .bicycleSection ul li img {
+        height: 300px;
+    }
+    .bicycleSection ul li p {
+        font-size: 13px;
+    }
+
+    .menuArea {
+        margin: 0 20px;
     }
 }
