@@ -1,7 +1,6 @@
 * {
     padding: 0px;
     margin: 0px;
-    background-color:;
 }
 
 header {
@@ -147,14 +146,21 @@ h2 {
     .mainImg img {
         height: 90vh;
         object-fit: cover;
-        object-position: 77%;
+        object-position: 85%;
     }
     
     main h2 {
         font-size: 32px;
     }
     .aboutSection {
+        display: flex;
+        flex-direction: column;
         flex-wrap: wrap;
+
+    }
+
+    .aboutSection img {
+        margin-left: 30px;
     }
 
     .aboutSection p,h3{
@@ -166,6 +172,11 @@ h2 {
         font-size: 14.4px;
     }
 
+    .bicycleSection {
+        display: flex;
+        flex-direction: column;
+
+}
 
     .bicycleSection ul{
         flex-wrap: wrap;
@@ -173,6 +184,8 @@ h2 {
 
     .bicycleSection ul li img {
         height: 300px;
+        width: 400px;
+        object-fit: cover;
     }
     .bicycleSection ul li p {
         font-size: 13px;
